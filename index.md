@@ -5,7 +5,7 @@
 ### Category Name 1 
 
 [3D Modelling Projects](/sample_page.md)
-<img src="images/3dmod cover?raw=true"/>
+<img src="images/3dmod cover.jpg?raw=true"/>
 
 ---
 [Software Projects](/pdf/sample_presentation.pdf)
