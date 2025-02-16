@@ -48,8 +48,8 @@ for (i = 0; i < acc.length; i++) {
 </script>
 
 <div class="btn-group">
-<button class="tablink" onclick="openPage('1', this, '#78A1BF')">Popliteal Stent</button>
-<button class="tablink" onclick="openPage('2', this, '#78A1BF')" id = "defaultOpen">Electrodeposition System</button>
+<button class="tablink" onclick="openPage('1', this, '#78A1BF')"id = "defaultOpen>Popliteal Stent</button>
+<button class="tablink" onclick="openPage('2', this, '#78A1BF')" ">Electrodeposition System</button>
 <button class="tablink" onclick="openPage('3', this, '#78A1BF')">Guitar Strummer</button>
 <button class="tablink" onclick="openPage('4', this, '#78A1BF')">Mars Rover Wheel</button>
 <button class="tablink" onclick="openPage('5', this, '#78A1BF')">Toy Boat</button>
