@@ -18,13 +18,14 @@ function openPage(pageName, elmnt, color) {
 
   elmnt.style.backgroundColor = color;
   }
-
+</script>
+<script>
 document.getElementById("defaultOpen").click();
 </script>
 
 
-<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
-<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+<button class="tablink" onclick="openPage('Home', this, 'red') "id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('News', this, 'green')">News</button>
 <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
 <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
 
