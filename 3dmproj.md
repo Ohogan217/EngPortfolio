@@ -37,9 +37,9 @@ document.getElementsByClassName("tablinks")[1].className = "active";
 </script>
 
 <div class="btn-group">
-  <button class="tablinks" onclick="openPage(event, '1')" id = "defaultOpen" >Popliteal Stent</button>
+  <button class="tablinks" onclick="openPage(event, '1')" id = "defaultOpen" >Popliteal<br>Stent</button>
   <button class="tablinks" onclick="openPage(event, '2')">Electrodeposition<br>System</button>
-  <button class="tablinks" onclick="openPage(event, '3')">Guitar Strummer</button>
+  <button class="tablinks" onclick="openPage(event, '3')">Guitar<br>Strummer</button>
   <button class="tablinks" onclick="openPage(event, '4')">Mars Rover<br>Wheel</button>
    
 </div>
