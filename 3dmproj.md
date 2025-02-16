@@ -40,13 +40,13 @@ function openPage(pageName, elmnt, color) {
 } 
 </script>
 
-
+<div class="btn-group">
 <button class="tablink" onclick="openPage('1', this, '#8EBFE3')" id="defaultOpen">Popliteal Stent</button>
 <button class="tablink" onclick="openPage('2', this, '#8EBFE3')">Electrodeposition System</button>
 <button class="tablink" onclick="openPage('3', this, '#8EBFE3')">Guitar Strummer</button>
 <button class="tablink" onclick="openPage('4', this, '#8EBFE3')">Mars Rover Wheel</button>
 <button class="tablink" onclick="openPage('5', this, '#8EBFE3')">Toy Boat</button>
-
+</div>
 <div id="1" class="tabcontent">
   <h2>Popliteal Stent</h2>
   <p>Model and simulate stresses in in the popliteal artery after stent has been applied.</p>
