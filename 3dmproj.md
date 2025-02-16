@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <style>
  link rel="stylesheet" href="tabs.css">
@@ -11,7 +11,8 @@ function openPage(pageName, elmnt, color) {
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
-
+ </script>
+ <script>
   // Remove the background color of all tablinks/buttons
   tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < tablinks.length; i++) {
@@ -24,8 +25,10 @@ function openPage(pageName, elmnt, color) {
 }
 
 // Get the element with id="defaultOpen" and click on it
+<script>
 document.getElementById("defaultOpen").click(); 
 document.getElementById("defaultOpen").click();
+</script>
 
 
 <button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
