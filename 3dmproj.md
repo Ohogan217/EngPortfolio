@@ -33,6 +33,7 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+document.getElementsByClassName("tablinks")[1].className = "active";
 </script>
 
 <div class="tabs">
@@ -131,8 +132,6 @@ for (i = 0; i < acc.length; i++) {
   <h2>Mars Rover Wheel</h2>
   <p>Who we are and what we do.</p>
 </div> 
-<script>
-   document.getElementById("defaultOpen").click());
-</script>
+
 </html>
 
