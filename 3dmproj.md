@@ -1,6 +1,6 @@
 <html>
 <style>
- link rel="stylesheet" href="tabs.css">
+ <link rel="stylesheet" href="tabs.css">
 </style>
 <script>
 function openPage(pageName, elmnt, color) {
