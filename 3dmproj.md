@@ -3,34 +3,23 @@
    <link rel="stylesheet" href="tabs.css">
 </head>
 <script>
-function openPage(pageName, elmnt, color) {
-  // Hide all elements with class="tabcontent" by default */
+function openPage(evt, cityName) {
+  // Declare all variables
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
 
-  // Remove the background color of all tablinks/buttons
-  tablinks = document.getElementsByClassName("tablink");
+  tablinks = document.getElementsByClassName("tablinks");
   for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+} 
+document.getElementById("defaultOpen").click();
 
-  // Show the specific tab content
-  document.getElementById(pageName).style.display = "block";
-
-  // Add the specific color to the button used to open the tab content
-  elmnt.style.backgroundColor = color;
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click(); 
-</script>
-  
-<script>
-// Get the element with id="defaultOpen" and click on it
-document.onload = function({document.getElementById("defaultOpen").click()});
 </script>
 
 <script>
@@ -53,10 +42,13 @@ for (i = 0; i < acc.length; i++) {
 }
 </script>
 
-<button class="tablink" onclick="openPage('1', this, 'red')" id="defaultOpen">Popliteal Stent</button>
-<button class="tablink" onclick="openPage('2', this, 'green')" >Electrodeposition<br>System</button>
-<button class="tablink" onclick="openPage('3', this, 'blue')">Guitar Strummer</button>
-<button class="tablink" onclick="openPage('4', this, 'orange')">Mars Rover<br>Wheel</button>
+<div class="tab">
+  <button class="tablinks" onclick="openPage(event, '1')" id="defaultOpen">Popliteal Stent</button>
+  <button class="tablinks" onclick="openCity(event, '2')">Electrodeposition<br>System</button>
+  <button class="tablinks" onclick="openCity(event, '3')">Guitar Strummer</button>
+  <button class="tablinks" onclick="openCity(event, '4')">Mars Rover<br>Wheel</button>
+   
+</div>
 
 <div id="1" class="tabcontent">
   <h2>Popliteal Stent</h2>
