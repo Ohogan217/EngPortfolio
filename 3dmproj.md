@@ -18,11 +18,12 @@ function openPage(pageName, elmnt, color) {
   document.getElementById(pageName).style.display = "block";
 
   elmnt.style.backgroundColor = color;
-  }
-window.onload = function() {  
+  window.onload = function() {  
    document.getElementById("defaultOpen").click();
 };
-window.onpageshow = function() {
+  }
+
+window.onload = function() {
 var acc = document.getElementsByClassName("accordion");
 var i;
 for (i = 0; i < acc.length; i++) {
