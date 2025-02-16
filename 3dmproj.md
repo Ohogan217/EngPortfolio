@@ -36,7 +36,7 @@ for (i = 0; i < acc.length; i++) {
 document.getElementsByClassName("tablinks")[1].className = "active";
 </script>
 
-<div class="tabs">
+<div class="btn-group">
   <button class="tablinks" onclick="openPage(event, '1')" id = "defaultOpen" >Popliteal Stent</button>
   <button class="tablinks" onclick="openPage(event, '2')">Electrodeposition<br>System</button>
   <button class="tablinks" onclick="openPage(event, '3')">Guitar Strummer</button>
