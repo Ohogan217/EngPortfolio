@@ -18,11 +18,11 @@ function openPage(pageName, elmnt, color) {
 
   elmnt.style.backgroundColor = color;
   }
-  window.onload = function() {
+  window.onpageshow = function() {
     
   document.getElementById("defaultOpen").click();
  };
-
+window.onpageshow = function() {
 var acc = document.getElementsByClassName("accordion");
 var i;
 window.onpageshow = function(){
@@ -41,6 +41,7 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }  
+}
 }
 </script>
 
@@ -133,6 +134,7 @@ for (i = 0; i < acc.length; i++) {
 <div id="3" class="tabcontent">
   <h2>Guitar Strummer</h2>
   <p>Develop a four bar linkage system for a specific purpose. A guitar strummer was chosen.</p>
+
 </div>
 
 <div id="4" class="tabcontent">
