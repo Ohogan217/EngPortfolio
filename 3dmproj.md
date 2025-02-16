@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <style>
  link rel="stylesheet" href="tabs.css">
