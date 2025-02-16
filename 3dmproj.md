@@ -73,7 +73,7 @@ function openPage(pageName, elmnt, color) {
      style="max-width: 70%;"/>
  <p></p>
  
-<button class="accordion" onclick="openPage('2r', this, '#8EBFE3')" id="defaultOpen">Renderings</button>
+<button class="accordion" >Renderings</button>
 
 <div class="panel">
   <h2>Renderings</h2>
@@ -87,7 +87,7 @@ function openPage(pageName, elmnt, color) {
   <img src="3d Modelling Projects/Electrodeposition System/Anode Render.png" 
      style="max-width: 70%;"/>
   </div>
-  <button class="accordion" onclick="openPage('2d', this, '#8EBFE3')">Drawings</button>
+  <button class="accordion" >Drawings</button>
   <div class="panel">
   <h2>Drawings</h2>
   <img src="3d Modelling Projects/Electrodeposition System/CathodeAssembly.png" 
