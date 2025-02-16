@@ -20,10 +20,14 @@ function openPage(pageName, elmnt, color) {
   elmnt.style.backgroundColor = color;
   
   }
-window.onload = function() {  
-   document.getElementById("defaultOpen").click();
-};
-window.onload = function() {
+</script>
+  
+<script>
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+<script>
 var acc = document.getElementsByClassName("accordion");
 var i;
 for (i = 0; i < acc.length; i++) {
@@ -40,7 +44,6 @@ for (i = 0; i < acc.length; i++) {
       panel.style.display = "block";
     }
   });
-}
 }
 </script>
 
