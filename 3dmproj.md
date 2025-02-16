@@ -60,13 +60,29 @@ function openPage(pageName, elmnt, color) {
   <h2>Electrodeposition System</h2>
   <p>Design an electrodeposition system for use on silicon chips</p>
   <h3>Rotating Cathode Holder</h3>
-  <img src="3d Modelling Projects/Electrodeposition System/Cathode render.png" />
-  <img src="3d Modelling Projects/Electrodeposition System/Cathode open.png"/> 
+  <img src="3d Modelling Projects/Electrodeposition System/Cathode render.png"  
+	 style="object-fit:contain;
+            width:200px;
+            height:300px;
+            border: solid 1px #CCC" />
+  <img src="3d Modelling Projects/Electrodeposition System/Cathode open.png" 
+	 style="object-fit:contain;
+            width:200px;
+            height:300px;
+            border: solid 1px #CCC"/> 
 
   <h3>Anode Basket</h3>
-  <img src="3d Modelling Projects/Electrodeposition System/Anode render.png"/>
+  <img src="3d Modelling Projects/Electrodeposition System/Anode Render.png" 
+	 style="object-fit:contain;
+            width:200px;
+            height:300px;
+            border: solid 1px #CCC"/>
   <h3>Full System</h3>
-  <img src="3d Modelling Projects/Electrodeposition System/Full System.png"/>
+  <img src="3d Modelling Projects/Electrodeposition System/FullSystem.png" 
+	 style="object-fit:contain;
+            width:200px;
+            height:300px;
+            border: solid 1px #CCC"/>
   
 </div>
 
