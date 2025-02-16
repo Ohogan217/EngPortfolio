@@ -35,8 +35,8 @@ for (i = 0; i < acc.length; i++) {
 </script>
 
 <div class="btn-group">
-  <button class="tablinks" onclick="openPage(event, '1')">Popliteal Stent</button>
-  <button class="tablinks" onclick="openCity(event, '2')">Electrodeposition<br>System</button>
+  <button class="tablinks" onclick="openPage(event, '2')">Popliteal Stent</button>
+  <button class="tablinks" onclick="openCity(event, '1')">Electrodeposition<br>System</button>
   <button class="tablinks" onclick="openCity(event, '3')">Guitar Strummer</button>
   <button class="tablinks" onclick="openCity(event, '4')">Mars Rover<br>Wheel</button>
    
@@ -73,8 +73,6 @@ for (i = 0; i < acc.length; i++) {
   <h4>Stent Stress Comparison</h4>
   <img src="3d Modelling Projects/Popliteal Stent/MatStressCompGraph.png" 
      style="max-width: 70%;"/> 
-  
- 
 </div>
 
 <div id="2" class="tabcontent">
