@@ -35,10 +35,10 @@ for (i = 0; i < acc.length; i++) {
 </script>
 
 <div class="btn-group">
-  <button class="tablinks" onclick="openPage(event, '2')">Popliteal Stent</button>
-  <button class="tablinks" onclick="openCity(event, '1')">Electrodeposition<br>System</button>
-  <button class="tablinks" onclick="openCity(event, '3')">Guitar Strummer</button>
-  <button class="tablinks" onclick="openCity(event, '4')">Mars Rover<br>Wheel</button>
+  <button class="tablinks" onclick="openPage(event, '1')">Popliteal Stent</button>
+  <button class="tablinks" onclick="openPage(event, '2')">Electrodeposition<br>System</button>
+  <button class="tablinks" onclick="openPage(event, '3')">Guitar Strummer</button>
+  <button class="tablinks" onclick="openPage(event, '4')">Mars Rover<br>Wheel</button>
    
 </div>
 
