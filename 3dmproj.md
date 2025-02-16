@@ -60,9 +60,8 @@ function openPage(pageName, elmnt, color) {
   <h2>Electrodeposition System</h2>
   <p>Design an electrodeposition system for use on silicon chips</p>
   <h3>Rotating Cathode Holder</h3>
-  <img src="3d Modelling Projects/Electrodeposition System/Cathode render.png"/>
+  <img src="3d Modelling Projects/Electrodeposition System/Cathode render.png" />
   <img src="3d Modelling Projects/Electrodeposition System/Cathode open.png"/> 
-  <video> <source src="3d Modelling Projects/Electrodeposition System/open close video.mkv" type = "video/mp4"/> </video>
 
   <h3>Anode Basket</h3>
   <img src="3d Modelling Projects/Electrodeposition System/Anode render.png"/>
