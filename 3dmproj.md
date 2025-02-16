@@ -92,7 +92,7 @@ for (i = 0; i < acc.length; i++) {
  <img src="3d Modelling Projects/Electrodeposition System/FullSystem.png" 
      style="max-width: 70%;"/>
  <p></p>
- </div>
+ 
  
 <button class="accordion" >Renderings</button>
 <div class="panel">
@@ -128,7 +128,7 @@ for (i = 0; i < acc.length; i++) {
      <img src="3d Modelling Projects/Electrodeposition System/ShaftDraw.png" 
      style="max-width: 70%;"/>
  </div>
-
+</div>
 <div id="3" class="tabcontent">
   <h2>Guitar Strummer</h2>
   <p>Get in touch, or swing by for a cup of coffee.</p>
