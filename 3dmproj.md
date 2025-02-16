@@ -18,7 +18,10 @@ function openPage(pageName, elmnt, color) {
 
   elmnt.style.backgroundColor = color;
   }
-  
+  window.onload = function() {
+    
+  document.getElementById("defaultOpen").click();
+ };
 
 var acc = document.getElementsByClassName("accordion");
 var i;
