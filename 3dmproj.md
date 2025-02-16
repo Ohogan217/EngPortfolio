@@ -124,7 +124,7 @@ function openPage(pageName, elmnt, color) {
   <h2>Drawings</h2>
   <img src="3d Modelling Projects/Electrodeposition System/CathodeAssembly.png" 
      style="max-width: 70%;"/>
-     <img src="3d Modelling Projects/Electrodeposition System/CaseDraw.png" 
+     <img src="3d Modelling Projects/Electrodeposition System/TopDraw.png" 
      style="max-width: 70%;"/>
      <img src="3d Modelling Projects/Electrodeposition System/ClaspDraw.png" 
      style="max-width: 70%;"/>
@@ -132,16 +132,15 @@ function openPage(pageName, elmnt, color) {
      style="max-width: 70%;"/>
      <img src="3d Modelling Projects/Electrodeposition System/RingDraw.png" 
      style="max-width: 70%;"/>
-     <img src="3d Modelling Projects/Electrodeposition System/ShaftDraw.png" 
-     style="max-width: 70%;"/>
-     <img src="3d Modelling Projects/Electrodeposition System/TopDraw.png" 
-     style="max-width: 70%;"/>
      <img src="3d Modelling Projects/Electrodeposition System/FoamDraw.png" 
+     style="max-width: 70%;"/>
+     <img src="3d Modelling Projects/Electrodeposition System/CaseDraw.png" 
+     style="max-width: 70%;"/>
+     <img src="3d Modelling Projects/Electrodeposition System/ShaftDraw.png" 
      style="max-width: 70%;"/>
  </div>
   
   
-</div>
 
 <div id="3" class="tabcontent">
   <h2>Guitar Strummer</h2>
