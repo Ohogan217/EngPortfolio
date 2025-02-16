@@ -1,7 +1,7 @@
 <html>
-<style>
- <link rel="stylesheet" href="tabs.css">
-</style>
+<head>
+   <link rel="stylesheet" href="tabs.css">
+</head>
 <script>
 function openPage(pageName, elmnt, color) {
   var i, tabcontent, tablinks;
