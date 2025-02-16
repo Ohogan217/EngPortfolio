@@ -133,9 +133,8 @@ for (i = 0; i < acc.length; i++) {
 <div id="3" class="tabcontent">
   <h2>Guitar Strummer</h2>
   <p>Develop a four bar linkage system for a specific purpose. A guitar strummer was chosen.</p>
-  <video autoplay muted width = "max-width: 70%;" height = "auto">
-   <source src = "3d Modelling Projects/Guitar Strummer/Motion Study.mp4" type="video/mp4"/> 
-  </video>
+  <img src="3d Modelling Projects/Guitar Strummer/MS.gif" 
+     style="max-width: 70%;"/>
 
 </div>
 
