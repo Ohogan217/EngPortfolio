@@ -22,7 +22,7 @@ function openPage(pageName, elmnt, color) {
   // Add the specific color to the button used to open the tab content
   elmnt.style.backgroundColor = color;
 }
-
+</script>
 // Get the element with id="defaultOpen" and click on it
 <script>
 document.getElementById("defaultOpen").click(); 
