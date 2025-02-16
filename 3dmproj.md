@@ -3,23 +3,29 @@
    <link rel="stylesheet" href="tabs.css">
 </head>
 <script>
-
 function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
   }
-  
+
+  // Remove the background color of all tablinks/buttons
   tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].style.backgroundColor = "";
   }
+
+  // Show the specific tab content
   document.getElementById(pageName).style.display = "block";
 
+  // Add the specific color to the button used to open the tab content
   elmnt.style.backgroundColor = color;
-  
-  }
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click(); 
 </script>
   
 <script>
@@ -47,13 +53,10 @@ for (i = 0; i < acc.length; i++) {
 }
 </script>
 
-<div class="btn-group">
-<button class="tablink" onclick="openPage('1', this, '#78A1BF')"id = "defaultOpen">Popliteal Stent</button>
-<button class="tablink" onclick="openPage('2', this, '#78A1BF')" ">Electrodeposition System</button>
-<button class="tablink" onclick="openPage('3', this, '#78A1BF')">Guitar Strummer</button>
-<button class="tablink" onclick="openPage('4', this, '#78A1BF')">Mars Rover Wheel</button>
-<button class="tablink" onclick="openPage('5', this, '#78A1BF')">Toy Boat</button>
-</div>
+<button class="tablink" onclick="openPage('1', this, 'red')" id="defaultOpen">Popliteal Stent</button>
+<button class="tablink" onclick="openPage('2', this, 'green')" >Electrodeposition<br>System</button>
+<button class="tablink" onclick="openPage('3', this, 'blue')">Guitar Strummer</button>
+<button class="tablink" onclick="openPage('4', this, 'orange')">Mars Rover<br>Wheel</button>
 
 <div id="1" class="tabcontent">
   <h2>Popliteal Stent</h2>
@@ -146,8 +149,4 @@ for (i = 0; i < acc.length; i++) {
   <p>Who we are and what we do.</p>
 </div> 
 
-<div id="5" class="tabcontent">
-  <h2>Toy Boat</h2>
-  <p>Who we are and what we do.</p>
-</div> 
-</html>
+
