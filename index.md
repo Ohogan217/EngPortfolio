@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[3D Modelling Projects](/3dmproj.html)
+[3D Modelling Projects](/3dmproj.md)
 <img src="images/3dmod cover.jpg?raw=true"/>
 
 ---
