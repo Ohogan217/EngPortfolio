@@ -58,7 +58,15 @@ function openPage(pageName, elmnt, color) {
 
 <div id="2" class="tabcontent">
   <h2>Electrodeposition System</h2>
-  <p>Some news this fine day!</p>
+  <p>Design an electrodeposition system for use on silicon chips</p>
+  <h3>Rotating Cathode Holder</h3>
+  <img src="3d Modelling Projects/Electrodeposition System/Cathode render.png"/>
+  <img src="3d Modelling Projects/Electrodeposition System/Cathode open"/> 
+  <h3>Anode Basket</h3>
+  <img src="3d Modelling Projects/Electrodeposition System/Anode render"/>
+  <h3>Full System</h3>
+  <img src="3d Modelling Projects/Electrodeposition System/Cathode render.png"/>
+  <img src="3d Modelling Projects/Electrodeposition System/Cathode open"/> 
 </div>
 
 <div id="3" class="tabcontent">
