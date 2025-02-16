@@ -28,15 +28,19 @@ var i;
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
-  this.classList.toggle("active");
-  var panel = this.nextElementSibling;
-  if (panel.style.display === "block") {
-    panel.style.display = "none";
-  } else {
-    panel.style.display = "block";
-  }
- });
-} 
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}  
 </script>
 
 <div class="btn-group">
@@ -46,20 +50,7 @@ for (i = 0; i < acc.length; i++) {
 <button class="tablink" onclick="openPage('4', this, '#8EBFE3')">Mars Rover Wheel</button>
 <button class="tablink" onclick="openPage('5', this, '#8EBFE3')">Toy Boat</button>
 </div>
- <button class="accordion">Section 1</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
 
-<button class="accordion">Section 2</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div>
-
-<button class="accordion">Section 3</button>
-<div class="panel">
-  <p>Lorem ipsum...</p>
-</div> 
 <div id="1" class="tabcontent">
   <h2>Popliteal Stent</h2>
   <p>Model and simulate stresses in in the popliteal artery after stent has been applied.</p>
@@ -118,6 +109,7 @@ for (i = 0; i < acc.length; i++) {
   </div>
 
   <button class="accordion" >Drawings</button>
+  
   <div class="panel">
       <h2>Drawings</h2>
       <img src="3d Modelling Projects/Electrodeposition System/CathodeAssembly.png" 
