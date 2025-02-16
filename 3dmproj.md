@@ -24,7 +24,7 @@ function openPage(pageName, elmnt, color) {
   
 <script>
 // Get the element with id="defaultOpen" and click on it
-document.onpageshow = function({document.getElementById("defaultOpen").click()});
+document.onload = function({document.getElementById("defaultOpen").click()});
 </script>
 
 <script>
