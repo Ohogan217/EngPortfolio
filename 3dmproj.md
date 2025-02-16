@@ -73,18 +73,9 @@ function openPage(pageName, elmnt, color) {
      style="max-width: 70%;"/>
  <p></p>
  
-<button class="tablink" onclick="openPage('2r', this, '#8EBFE3')">Renderings</button>
-<button class="tablink" onclick="openPage('2d', this, '#8EBFE3')">Drawings</button>
-</div>
- <div id="2r" class="tabcontent">
-  <h2>Electrodeposition System</h2>
-  <p>Design an electrodeposition system for use on silicon chips</p>
- <img src="3d Modelling Projects/Electrodeposition System/FullSystem.png" 
-     style="max-width: 70%;"/>
- <p></p>
-  
-<button class="tablink" onclick="openPage('2r', this, '#8EBFE3')" id="defaultOpen">Renderings</button>
-<button class="tablink" onclick="openPage('2d', this, '#8EBFE3')">Drawings</button>
+<button class="accordion" onclick="openPage('2r', this, '#8EBFE3')" id="defaultOpen">Renderings</button>
+
+<div class="panel">
   <h2>Renderings</h2>
   <h3>Rotating Cathode Holder</h3>
   <img src="3d Modelling Projects/Electrodeposition System/Cathode render.png"  
@@ -96,15 +87,8 @@ function openPage(pageName, elmnt, color) {
   <img src="3d Modelling Projects/Electrodeposition System/Anode Render.png" 
      style="max-width: 70%;"/>
   </div>
-  <div id="2d" class="tabcontent">
-  <h2>Electrodeposition System</h2>
-  <p>Design an electrodeposition system for use on silicon chips</p>
- <img src="3d Modelling Projects/Electrodeposition System/FullSystem.png" 
-     style="max-width: 70%;"/>
- <p></p>
-
-<button class="tablink" onclick="openPage('2r', this, '#8EBFE3')">Renderings</button>
-<button class="tablink" onclick="openPage('2d', this, '#8EBFE3')">Drawings</button>
+  <button class="accordion" onclick="openPage('2d', this, '#8EBFE3')">Drawings</button>
+  <div class="panel">
   <h2>Drawings</h2>
   <img src="3d Modelling Projects/Electrodeposition System/CathodeAssembly.png" 
      style="max-width: 70%;"/>
