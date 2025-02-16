@@ -20,8 +20,9 @@ function openPage(pageName, elmnt, color) {
   }
   window.onload = function() {
     
-    document.getElementById("defaultOpen").click();
+  document.getElementById("defaultOpen").click();
   };
+  
 </script>
 
 
@@ -69,6 +70,14 @@ function openPage(pageName, elmnt, color) {
 <div id="2" class="tabcontent">
   <h2>Electrodeposition System</h2>
   <p>Design an electrodeposition system for use on silicon chips</p>
+ <img src="3d Modelling Projects/Electrodeposition System/FullSystem.png" 
+     style="max-width: 70%;"/>
+ 
+ <button class="tablink" onclick="openPage('r', this, '#8EBFE3')" id="defaultOpen">Renders</button>
+ <button class="tablink" onclick="openPage('d', this, '#8EBFE3')">Drawings</button>
+  
+ <div id="r" class="tabcontent">
+  <h2>Renders</h2>
   <h3>Rotating Cathode Holder</h3>
   <img src="3d Modelling Projects/Electrodeposition System/Cathode render.png"  
      style="max-width: 70%;"/>
@@ -78,9 +87,12 @@ function openPage(pageName, elmnt, color) {
   <h3>Anode Basket</h3>
   <img src="3d Modelling Projects/Electrodeposition System/Anode Render.png" 
      style="max-width: 70%;"/>
-  <h3>Full System</h3>
-  <img src="3d Modelling Projects/Electrodeposition System/FullSystem.png" 
-     style="max-width: 70%;"/>
+  </div>
+  
+ <div id="r" class="tabcontent">
+  <h2>Drawings</h2>
+ </div>
+  
   
 </div>
 
