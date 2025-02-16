@@ -43,6 +43,16 @@ function openPage(pageName, elmnt, color) {
  <p>Stent was designed by creating a single cell that was duplicated 4 times to produce the desired shape. This was because the student version of Abaqus has a limit on the amount of Ngons for Finite Element Analysis.</p>
   <img src="3d Modelling Projects/Popliteal Stent/UnexpandedStent.png"/>
   <img src="3d Modelling Projects/Popliteal Stent/StentUnitDesign.png"/>
+  <h3>Material Modelling</h3>
+  <h4>Steel Stent</h4>
+  <img src="3d Modelling Projects/Popliteal Stent/ExpansionStentSteel.png"/>
+  <img src="3d Modelling Projects/Popliteal Stent/ExpandedStentSteel.png"/>
+  <h4>Nitinol Stent</h4>
+  <img src="3d Modelling Projects/Popliteal Stent/ExpansionStentNitinol.png"/>
+  <img src="3d Modelling Projects/Popliteal Stent/ExpandedStentNitinol.png"/>
+  <h4>Stent Stress Comparison</h4>
+  <img src="3d Modelling Projects/Popliteal Stent/MatStressCompGraph.png"/>
+  
  
 </div>
 
