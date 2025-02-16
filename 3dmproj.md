@@ -21,7 +21,6 @@ function openPage(pageName, elmnt, color) {
   window.onload = function() {
     
   document.getElementById("defaultOpen").click();
-  document.getElementById("defaultOpen").click();
   };
 </script>
 
@@ -104,7 +103,7 @@ function openPage(pageName, elmnt, color) {
      style="max-width: 70%;"/>
  <p></p>
 
-<button class="tablink" onclick="openPage('2r', this, '#8EBFE3')" id="defaultOpen">Renderings</button>
+<button class="tablink" onclick="openPage('2r', this, '#8EBFE3')">Renderings</button>
 <button class="tablink" onclick="openPage('2d', this, '#8EBFE3')">Drawings</button>
   <h2>Drawings</h2>
   <img src="3d Modelling Projects/Electrodeposition System/CathodeAssembly.png" 
@@ -124,8 +123,6 @@ function openPage(pageName, elmnt, color) {
      <img src="3d Modelling Projects/Electrodeposition System/ShaftDraw.png" 
      style="max-width: 70%;"/>
  </div>
-  
-  
 
 <div id="3" class="tabcontent">
   <h2>Guitar Strummer</h2>
