@@ -18,14 +18,14 @@ function openPage(pageName, elmnt, color) {
 
   elmnt.style.backgroundColor = color;
   }
-  window.onload = function() {
+  window.onpageshow = function() {
     
   document.getElementById("defaultOpen").click();
  };
 
 var acc = document.getElementsByClassName("accordion");
 var i;
-window.onload = function(){
+window.onpageshow = function(){
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     /* Toggle between adding and removing the "active" class,

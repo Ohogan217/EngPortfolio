@@ -50,8 +50,8 @@
   height: 300px;
 }
 .btn-group button {
-  background-color: #04AA6D; /* Green background */
-  border: 1px solid green; /* Green border */
+  background-color: #8EBFE3; /* Green background */
+  border: 1px solid blue; /* Green border */
   color: white; /* White text */
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
