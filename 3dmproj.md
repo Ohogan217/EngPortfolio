@@ -36,22 +36,32 @@ function openPage(pageName, elmnt, color) {
   <p>Model and simulate stresses in in the popliteal artery after stent has been applied.</p>
   <p>Model stresses in the stent during expansion and after expansion for 2 different materials</p>
   <h3>Artery Simulation</h3>
-  <img src="3d Modelling Projects/Popliteal Stent/UnstentedArtery.png"/>
-  <img src="3d Modelling Projects/Popliteal Stent/StentedArtery.png"/>
-  <img src="3d Modelling Projects/Popliteal Stent/ArteryStress.png"/>
+  <img src="3d Modelling Projects/Popliteal Stent/UnstentedArtery.png"
+     style="max-width: 70%;"/> 
+  <img src="3d Modelling Projects/Popliteal Stent/StentedArtery.png" 
+     style="max-width: 70%;"/> 
+  <img src="3d Modelling Projects/Popliteal Stent/ArteryStress.png" 
+     style="max-width: 70%;"/> 
  <h3>Stent Modelling</h3>
  <p>Stent was designed by creating a single cell that was duplicated 4 times to produce the desired shape. This was because the student version of Abaqus has a limit on the amount of Ngons for Finite Element Analysis.</p>
-  <img src="3d Modelling Projects/Popliteal Stent/UnexpandedStent.png"/>
-  <img src="3d Modelling Projects/Popliteal Stent/StentUnitDesign.png"/>
+  <img src="3d Modelling Projects/Popliteal Stent/UnexpandedStent.png" 
+     style="max-width: 70%;"/> 
+  <img src="3d Modelling Projects/Popliteal Stent/StentUnitDesign.png" 
+     style="max-width: 70%;"/> 
   <h3>Material Modelling</h3>
   <h4>Steel Stent</h4>
-  <img src="3d Modelling Projects/Popliteal Stent/ExpansionStentSteel.png"/>
-  <img src="3d Modelling Projects/Popliteal Stent/ExpandedStentSteel.png"/>
+  <img src="3d Modelling Projects/Popliteal Stent/ExpansionStentSteel.png" 
+     style="max-width: 70%;"/> 
+  <img src="3d Modelling Projects/Popliteal Stent/ExpandedStentSteel.png" 
+     style="max-width: 70%;"/> 
   <h4>Nitinol Stent</h4>
-  <img src="3d Modelling Projects/Popliteal Stent/ExpansionStentNitinol.png"/>
-  <img src="3d Modelling Projects/Popliteal Stent/ExpandedStentNitinol.png"/>
+  <img src="3d Modelling Projects/Popliteal Stent/ExpansionStentNitinol.png" 
+     style="max-width: 70%;"/> 
+  <img src="3d Modelling Projects/Popliteal Stent/ExpandedStentNitinol.png" 
+     style="max-width: 70%;"/> 
   <h4>Stent Stress Comparison</h4>
-  <img src="3d Modelling Projects/Popliteal Stent/MatStressCompGraph.png"/>
+  <img src="3d Modelling Projects/Popliteal Stent/MatStressCompGraph.png" 
+     style="max-width: 70%;"/> 
   
  
 </div>
@@ -61,16 +71,16 @@ function openPage(pageName, elmnt, color) {
   <p>Design an electrodeposition system for use on silicon chips</p>
   <h3>Rotating Cathode Holder</h3>
   <img src="3d Modelling Projects/Electrodeposition System/Cathode render.png"  
-     style="max-width: 100%;"/>
+     style="max-width: 70%;"/>
   <img src="3d Modelling Projects/Electrodeposition System/Cathode open.png" 
-     style="max-width: 100%;"/> 
+     style="max-width: 70%;"/> 
 
   <h3>Anode Basket</h3>
   <img src="3d Modelling Projects/Electrodeposition System/Anode Render.png" 
-     style="max-width: 100%;"/>
+     style="max-width: 70%;"/>
   <h3>Full System</h3>
   <img src="3d Modelling Projects/Electrodeposition System/FullSystem.png" 
-     style="max-width: 100%;"/>
+     style="max-width: 70%;"/>
   
 </div>
 
