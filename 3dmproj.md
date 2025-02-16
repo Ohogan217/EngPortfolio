@@ -88,31 +88,17 @@ function openPage(pageName, elmnt, color) {
  <img src="3d Modelling Projects/Electrodeposition System/FullSystem.png" 
      style="max-width: 70%;"/>
  <p></p>
-  <!-- Tab links -->
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-</div>
-
-<!-- Tab content -->
-<div id="London" class="tabcontent">
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-</div>
-
-<div id="Paris" class="tabcontent">
-  <h3>Paris</h3>
-  <p>Paris is the capital of France.</p>
-</div>
-
-<div id="Tokyo" class="tabcontent">
-  <h3>Tokyo</h3>
-  <p>Tokyo is the capital of Japan.</p>
-</div> 
-  
  
-  <h2>Renders</h2>
+<button class="tablink" onclick="openPage('2r', this, '#8EBFE3')" id="defaultOpen">Renderings</button>
+<button class="tablink" onclick="openPage('2d', this, '#8EBFE3')">Drawings</button>
+</div>
+ <div id="2r" class="tabcontent">
+  <h2>Electrodeposition System</h2>
+  <p>Design an electrodeposition system for use on silicon chips</p>
+ <img src="3d Modelling Projects/Electrodeposition System/FullSystem.png" 
+     style="max-width: 70%;"/>
+ <p></p>
+  <h2>Renderings</h2>
   <h3>Rotating Cathode Holder</h3>
   <img src="3d Modelling Projects/Electrodeposition System/Cathode render.png"  
      style="max-width: 70%;"/>
@@ -123,7 +109,12 @@ function openPage(pageName, elmnt, color) {
   <img src="3d Modelling Projects/Electrodeposition System/Anode Render.png" 
      style="max-width: 70%;"/>
   </div>
-  
+  <div id="2d" class="tabcontent">
+  <h2>Electrodeposition System</h2>
+  <p>Design an electrodeposition system for use on silicon chips</p>
+ <img src="3d Modelling Projects/Electrodeposition System/FullSystem.png" 
+     style="max-width: 70%;"/>
+ <p></p>
   <h2>Drawings</h2>
  </div>
   
