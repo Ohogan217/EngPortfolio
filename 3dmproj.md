@@ -21,23 +21,8 @@ function openPage(pageName, elmnt, color) {
   window.onload = function() {
     
   document.getElementById("defaultOpen").click();
+  document.getElementById("defaultOpen").click();
   };
-  function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-} 
 </script>
 
 <div class="btn-group">
@@ -89,7 +74,7 @@ function openPage(pageName, elmnt, color) {
      style="max-width: 70%;"/>
  <p></p>
  
-<button class="tablink" onclick="openPage('2r', this, '#8EBFE3')" id="defaultOpen">Renderings</button>
+<button class="tablink" onclick="openPage('2r', this, '#8EBFE3')">Renderings</button>
 <button class="tablink" onclick="openPage('2d', this, '#8EBFE3')">Drawings</button>
 </div>
  <div id="2r" class="tabcontent">
