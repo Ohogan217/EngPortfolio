@@ -36,13 +36,13 @@ function openPage(pageName, elmnt, color) {
   <p>Model and simulate stresses in in the popliteal artery after stent has been applied.</p>
   <p>Model stresses in the stent during expansion and after expansion for 2 different materials</p>
   <h3>Artery Simulation</h3>
-  <img src="3d Modelling Project/Popliteal Stent/unstentedArtery"/>
-  <img src="3d Modelling Project/Popliteal Stent/StentedArtery"/>
-  <img src="3d Modelling Project/Popliteal Stent/ArteryStress"/>
+  <img src="3d Modelling Projects/Popliteal Stent/UnstentedArtery"/>
+  <img src="3d Modelling Projects/Popliteal Stent/StentedArtery"/>
+  <img src="3d Modelling Projects/Popliteal Stent/ArteryStress"/>
  <h3>Stent Modelling</h3>
  <p>Stent was designed by creating a single cell that was duplicated 4 times to produce the desired shape. This was because the student version of Abaqus has a limit on the amount of Ngons for Finite Element Analysis.</p>
-  <img src="3d Modelling Project/Popliteal Stent/UnexpandedStent"/>
-  <img src="3d Modelling Project/Popliteal Stent/StentUnitDesign"/>
+  <img src="3d Modelling Projects/Popliteal Stent/UnexpandedStent"/>
+  <img src="3d Modelling Projects/Popliteal Stent/StentUnitDesign"/>
  
 </div>
 
