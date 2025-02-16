@@ -18,7 +18,7 @@ function openPage(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 } 
-
+window.onload = function({document.getElementsById("defaultOpen").click()});
 var acc = document.getElementsByClassName("accordion");
 var i;
 for (i = 0; i < acc.length; i++) {
@@ -34,8 +34,8 @@ for (i = 0; i < acc.length; i++) {
 }
 </script>
 
-<div class="btn-group">
-  <button class="tablinks" onclick="openPage(event, '1')">Popliteal Stent</button>
+<div class="tabs">
+  <button class="tablinks" onclick="openPage(event, '1')" id = "defaultOpen" >Popliteal Stent</button>
   <button class="tablinks" onclick="openPage(event, '2')">Electrodeposition<br>System</button>
   <button class="tablinks" onclick="openPage(event, '3')">Guitar Strummer</button>
   <button class="tablinks" onclick="openPage(event, '4')">Mars Rover<br>Wheel</button>
