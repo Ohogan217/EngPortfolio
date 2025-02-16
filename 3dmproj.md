@@ -22,7 +22,22 @@ function openPage(pageName, elmnt, color) {
     
   document.getElementById("defaultOpen").click();
   };
-  
+  function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+} 
 </script>
 
 
@@ -72,11 +87,31 @@ function openPage(pageName, elmnt, color) {
   <p>Design an electrodeposition system for use on silicon chips</p>
  <img src="3d Modelling Projects/Electrodeposition System/FullSystem.png" 
      style="max-width: 70%;"/>
- 
- <button class="tablink" onclick="openPage('r', this, '#8EBFE3')" id="defaultOpen">Renders</button>
- <button class="tablink" onclick="openPage('d', this, '#8EBFE3')">Drawings</button>
+ <p></p>
+  <!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<!-- Tab content -->
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div> 
   
- <div id="r" class="tabcontent">
+ 
   <h2>Renders</h2>
   <h3>Rotating Cathode Holder</h3>
   <img src="3d Modelling Projects/Electrodeposition System/Cathode render.png"  
@@ -89,7 +124,6 @@ function openPage(pageName, elmnt, color) {
      style="max-width: 70%;"/>
   </div>
   
- <div id="r" class="tabcontent">
   <h2>Drawings</h2>
  </div>
   
