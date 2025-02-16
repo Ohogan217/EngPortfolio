@@ -66,7 +66,7 @@ function openPage(pageName, elmnt, color) {
   <h3>Anode Basket</h3>
   <img src="3d Modelling Projects/Electrodeposition System/Anode render.png"/>
   <h3>Full System</h3>
-  <video> <source src="3d Modelling Projects/Electrodeposition System/System Render Animation.mkv" type = "video/mp4"/> </video>
+  <img src="3d Modelling Projects/Electrodeposition System/Full System.png"/>
   
 </div>
 
