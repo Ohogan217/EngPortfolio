@@ -2,6 +2,7 @@
 <head>
    <link rel="stylesheet" href="tabs.css">
 </head>
+<body>
 <script>
 function openPage(evt, cityName) {
   // Declare all variables
@@ -18,7 +19,8 @@ function openPage(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 } 
-window.onload = function({document.getElementsById("defaultOpen").click()});
+windows.onload = function({document.getElementById("defaultOpen").click()});
+
 var acc = document.getElementsByClassName("accordion");
 var i;
 for (i = 0; i < acc.length; i++) {
@@ -33,7 +35,6 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 </script>
-
 <div class="tabs">
   <button class="tablinks" onclick="openPage(event, '1')" id = "defaultOpen" >Popliteal Stent</button>
   <button class="tablinks" onclick="openPage(event, '2')">Electrodeposition<br>System</button>
@@ -131,4 +132,6 @@ for (i = 0; i < acc.length; i++) {
   <p>Who we are and what we do.</p>
 </div> 
 
+</body>
+</html>
 
