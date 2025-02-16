@@ -99,8 +99,8 @@ function openPage(pageName, elmnt, color) {
      style="max-width: 70%;"/>
  <p></p>
   
-<button class="tablink" onclick="openPage('1', this, '#8EBFE3')" id="defaultOpen">Popliteal Stent</button>
-<button class="tablink" onclick="openPage('2', this, '#8EBFE3')">Electrodeposition System</button>
+<button class="tablink" onclick="openPage('2r', this, '#8EBFE3')" id="defaultOpen">Renderings</button>
+<button class="tablink" onclick="openPage('2d', this, '#8EBFE3')">Drawings</button>
   <h2>Renderings</h2>
   <h3>Rotating Cathode Holder</h3>
   <img src="3d Modelling Projects/Electrodeposition System/Cathode render.png"  
@@ -118,10 +118,26 @@ function openPage(pageName, elmnt, color) {
  <img src="3d Modelling Projects/Electrodeposition System/FullSystem.png" 
      style="max-width: 70%;"/>
  <p></p>
-   
-<button class="tablink" onclick="openPage('1', this, '#8EBFE3')" id="defaultOpen">Popliteal Stent</button>
-<button class="tablink" onclick="openPage('2', this, '#8EBFE3')">Electrodeposition System</button>
+
+<button class="tablink" onclick="openPage('2r', this, '#8EBFE3')" id="defaultOpen">Renderings</button>
+<button class="tablink" onclick="openPage('2d', this, '#8EBFE3')">Drawings</button>
   <h2>Drawings</h2>
+  <img src="3d Modelling Projects/Electrodeposition System/CathodeAssembly.png" 
+     style="max-width: 70%;"/>
+     <img src="3d Modelling Projects/Electrodeposition System/CaseDraw.png" 
+     style="max-width: 70%;"/>
+     <img src="3d Modelling Projects/Electrodeposition System/ClaspDraw.png" 
+     style="max-width: 70%;"/>
+     <img src="3d Modelling Projects/Electrodeposition System/PinDraw.png" 
+     style="max-width: 70%;"/>
+     <img src="3d Modelling Projects/Electrodeposition System/RingDraw.png" 
+     style="max-width: 70%;"/>
+     <img src="3d Modelling Projects/Electrodeposition System/ShaftDraw.png" 
+     style="max-width: 70%;"/>
+     <img src="3d Modelling Projects/Electrodeposition System/TopDraw.png" 
+     style="max-width: 70%;"/>
+     <img src="3d Modelling Projects/Electrodeposition System/FoamDraw.png" 
+     style="max-width: 70%;"/>
  </div>
   
   
