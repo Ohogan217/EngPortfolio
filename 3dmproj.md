@@ -98,6 +98,9 @@ function openPage(pageName, elmnt, color) {
  <img src="3d Modelling Projects/Electrodeposition System/FullSystem.png" 
      style="max-width: 70%;"/>
  <p></p>
+  
+<button class="tablink" onclick="openPage('1', this, '#8EBFE3')" id="defaultOpen">Popliteal Stent</button>
+<button class="tablink" onclick="openPage('2', this, '#8EBFE3')">Electrodeposition System</button>
   <h2>Renderings</h2>
   <h3>Rotating Cathode Holder</h3>
   <img src="3d Modelling Projects/Electrodeposition System/Cathode render.png"  
@@ -115,6 +118,9 @@ function openPage(pageName, elmnt, color) {
  <img src="3d Modelling Projects/Electrodeposition System/FullSystem.png" 
      style="max-width: 70%;"/>
  <p></p>
+   
+<button class="tablink" onclick="openPage('1', this, '#8EBFE3')" id="defaultOpen">Popliteal Stent</button>
+<button class="tablink" onclick="openPage('2', this, '#8EBFE3')">Electrodeposition System</button>
   <h2>Drawings</h2>
  </div>
   
