@@ -94,7 +94,6 @@ for (i = 0; i < acc.length; i++) {
  <p></p>
  
 <button class="accordion" >Renderings</button>
-
 <div class="panel">
   <h2>Renderings</h2>
   <h3>Rotating Cathode Holder</h3>
@@ -106,11 +105,10 @@ for (i = 0; i < acc.length; i++) {
   <h3>Anode Basket</h3>
   <img src="3d Modelling Projects/Electrodeposition System/Anode Render.png" 
      style="max-width: 70%;"/>
-  </div>
+</div>
 
-  <button class="accordion" >Drawings</button>
-  
-  <div class="panel">
+<button class="accordion" >Drawings</button>
+<div class="panel">
       <h2>Drawings</h2>
       <img src="3d Modelling Projects/Electrodeposition System/CathodeAssembly.png" 
      style="max-width: 70%;"/>
