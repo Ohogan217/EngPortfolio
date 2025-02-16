@@ -19,7 +19,7 @@ function openPage(evt, cityName) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 } 
-
+window.onload = function(){
 var acc = document.getElementsByClassName("accordion");
 var i;
 for (i = 0; i < acc.length; i++) {
@@ -32,6 +32,8 @@ for (i = 0; i < acc.length; i++) {
       panel.style.display = "block";
     }
   });
+}
+document.getElementById("defaultOpen").click(); 
 }
 document.getElementsByClassName("tablinks")[1].className = "active";
 </script>
