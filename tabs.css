@@ -21,9 +21,9 @@
   
 }
 .button {
-  background-color: #04AA6D; /* Green */
+  background-color: #8EBFE3; /* Green */
   border: none;
-  color: white;
+  color: black;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -32,12 +32,12 @@
 }
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #78A1BF;
 }
 
 /* Create an active/current "tab button" class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: #61839C;
 }
 
 /* Style the tab content */
