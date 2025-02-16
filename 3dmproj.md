@@ -3,9 +3,7 @@
    <link rel="stylesheet" href="tabs.css">
 </head>
 <script>
-window.onpageshow = function() {  
-   document.getElementById("defaultOpen").click();
-};
+
 function openPage(pageName, elmnt, color) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -21,11 +19,12 @@ function openPage(pageName, elmnt, color) {
 
   elmnt.style.backgroundColor = color;
   }
-
+window.onload = function() {  
+   document.getElementById("defaultOpen").click();
+};
 window.onpageshow = function() {
 var acc = document.getElementsByClassName("accordion");
 var i;
-window.onpageshow = function(){
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
     /* Toggle between adding and removing the "active" class,
@@ -40,7 +39,6 @@ for (i = 0; i < acc.length; i++) {
       panel.style.display = "block";
     }
   });
-}  
 }
 }
 </script>
@@ -135,7 +133,8 @@ for (i = 0; i < acc.length; i++) {
   <h2>Guitar Strummer</h2>
   <p>Develop a four bar linkage system for a specific purpose. A guitar strummer was chosen.</p>
   <video autoplay muted>
-   <source src = "3d Modelling Projects/Guitar Strummer/Motion Study.mp4" type="video/mp4">
+   <source src = "3d Modelling Projects/Guitar Strummer/Motion Study.mp4" type="video/mp4"
+     style="max-width: 70%;"/> 
   </video>
 
 </div>
