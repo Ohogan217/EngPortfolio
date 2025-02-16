@@ -25,27 +25,27 @@ function openPage(pageName, elmnt, color) {
 </script>
 
 
-<button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">Home</button>
-<button class="tablink" onclick="openPage('News', this, 'green')">News</button>
-<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+<button class="tablink" onclick="openPage('1', this, 'red')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('2', this, 'green')">News</button>
+<button class="tablink" onclick="openPage('3', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openPage('4', this, 'orange')">About</button>
 
-<div id="Home" class="tabcontent">
+<div id="1" class="tabcontent">
   <h3>Home</h3>
   <p>Home is where the heart is..</p>
 </div>
 
-<div id="News" class="tabcontent">
+<div id="2" class="tabcontent">
   <h3>News</h3>
   <p>Some news this fine day!</p>
 </div>
 
-<div id="Contact" class="tabcontent">
+<div id="3" class="tabcontent">
   <h3>Contact</h3>
   <p>Get in touch, or swing by for a cup of coffee.</p>
 </div>
 
-<div id="About" class="tabcontent">
+<div id="4" class="tabcontent">
   <h3>About</h3>
   <p>Who we are and what we do.</p>
 </div> 
