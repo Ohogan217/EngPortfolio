@@ -18,7 +18,6 @@ function openPage(pageName, elmnt, color) {
 
   elmnt.style.backgroundColor = color;
   }
-<script>
   window.onload = function() {
     
     document.getElementById("defaultOpen").click();
