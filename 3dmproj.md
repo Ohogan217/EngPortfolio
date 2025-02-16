@@ -3,6 +3,9 @@
    <link rel="stylesheet" href="tabs.css">
 </head>
 <script>
+window.onpageshow = function() {  
+   document.getElementById("defaultOpen").click();
+};
 function openPage(pageName, elmnt, color) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -18,10 +21,7 @@ function openPage(pageName, elmnt, color) {
 
   elmnt.style.backgroundColor = color;
   }
-  window.onpageshow = function() {
-    
-  document.getElementById("defaultOpen").click();
- };
+
 window.onpageshow = function() {
 var acc = document.getElementsByClassName("accordion");
 var i;
