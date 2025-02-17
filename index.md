@@ -12,9 +12,9 @@
 <img src="images/software.jpg?raw=true"/>
 
 ---
-[Thesis Poject](/pdf/Oisin_Hogan_Thesis_Submission.pdf)
+[Thesis Project](/pdf/Oisin_Hogan_Thesis_Submission.pdf)
 <p></p>
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Thesis.png?raw=true"/>
 
 ---
 [VFX Projects](/pdf/sample_presentation.pdf)
