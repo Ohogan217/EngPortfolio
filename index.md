@@ -20,9 +20,9 @@
 ---
 ## Key Skills
 ---
-<h3>Programming</h3>
+<h3>Programming Languages</h3>
 Python, Java, Python, C++, R, C, HTML, MATLAB
-<h3>3D Modelling</h3>
+<h3>3D Modelling Software</h3>
 AutoCAD Fusion 360, AutoCAD Inventor, SolidWorks, Blender
 <h3>Simulations</h3>
 AutoCAD Fusion 360, OpenSim, Blender, MATLAB
