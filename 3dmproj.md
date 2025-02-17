@@ -1,7 +1,7 @@
 <html>
 <head>
    <link rel="stylesheet" href="tabs.css">
-
+<h1>3D Modelling Projects</h1>
 </head>
 <script>
 function openPage(evt, cityName) {
