@@ -43,6 +43,7 @@ document.getElementsByClassName("tablinks")[1].className = "active";
   <button class="tablinks" onclick="openPage(event, '2')">Electrodeposition<br>System</button>
   <button class="tablinks" onclick="openPage(event, '3')">Guitar<br>Strummer</button>
   <button class="tablinks" onclick="openPage(event, '4')">Mars Rover<br>Wheel</button>
+  <button style="max-width:100%"></button>
    
 </div>
 
@@ -125,8 +126,14 @@ document.getElementsByClassName("tablinks")[1].className = "active";
 <div id="3" class="tabcontent">
   <h2>Guitar Strummer</h2>
   <p>Develop a four bar linkage system for a specific purpose. A guitar strummer was chosen.</p>
+  <h3>Motion Study of Part</h3>
   <img src="3d Modelling Projects/Guitar Strummer/MS.gif" 
      style="max-width: 100%;"/>
+  <h3>Orthographic Projection of Rocker Part</h3>
+  <img src="3d Modelling Projects/Guitar Strummer/rocker.png" 
+     style="max-width: 100%;"/>
+
+
 
 </div>
 
