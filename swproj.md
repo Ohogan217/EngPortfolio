@@ -47,7 +47,7 @@ document.getElementsByClassName("tablinks")[1].className = "active";
 
 <div id="1" class="tabcontent">
   <h2>Java Projects</h2>
-  <h3><a href =  "Software Projects/Patience">Patience (Solitaire)</a></h3>
+  <h3><a href =  "Software Projects/Java/Patience">Patience (Solitaire)</a></h3>
   <p>Object Oriented playable game of Solitaire</p>
   <img src="Software Projects/Images/Patience.png"
      style="max-width: 100%;"/> 
