@@ -1,31 +1,58 @@
-## This can be your internal website page / project page
+<html>
+<head>
+  <link rel="stylesheet" href="tabs.css">
+  <h1>Sofware Projects</h1>
+</head>
+<script>
+function openPage(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### 1. Suggest hypotheses about the causes of observed phenomena
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-```javascript
-if (isAwesome){
-  return true
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+} 
+window.onload = function(){
+var acc = document.getElementsByClassName("accordion");
+var i;
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
 }
-```
-
-### 2. Assess assumptions on which statistical inference will be based
-
-```javascript
-if (isAwesome){
-  return true
+document.getElementById("defaultOpen").click(); 
 }
-```
+document.getElementsByClassName("tablinks")[1].className = "active";
+</script>
+<div class="btn-group">
+  <button class="tablinks" onclick="openPage(event, '1')" id = "defaultOpen" >Java</button>
+  <button class="tablinks" onclick="openPage(event, '2')">Python</button>
+  <button class="tablinks" onclick="openPage(event, '3')">Matlab</button>
+  <button class="tablinks" onclick="openPage(event, '4')">C++</button>
+  <button class="tablinks" onclick="openPage(event, '5')">C</button>
+</div>
 
-### 3. Support the selection of appropriate statistical tools and techniques
+<div id="1" class="tabcontent"></div>
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<div id="2" class="tabcontent"></div>
 
-### 4. Provide a basis for further data collection through surveys or experiments
+<div id="3" class="tabcontent"></div>
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+<div id="4" class="tabcontent"></div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<div id="5" class="tabcontent"></div>
+
+</html>
