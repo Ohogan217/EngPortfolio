@@ -14,6 +14,7 @@
   cursor: pointer; /* Pointer/hand icon */
   float: left; /* Float the buttons side by side */
   flex-grow: 1;
+  height:32px
  
 }
 
