@@ -40,19 +40,41 @@ document.getElementsByClassName("tablinks")[1].className = "active";
 <div class="btn-group">
   <button class="tablinks" onclick="openPage(event, '1')" id = "defaultOpen" >Java</button>
   <button class="tablinks" onclick="openPage(event, '2')">Python</button>
-  <button class="tablinks" onclick="openPage(event, '3')">Matlab</button>
+  <button class="tablinks" onclick="openPage(event, '3')">MATLAB</button>
   <button class="tablinks" onclick="openPage(event, '4')">C++</button>
   <button class="tablinks" onclick="openPage(event, '5')">C</button>
 </div>
 
-<div id="1" class="tabcontent"></div>
+<div id="1" class="tabcontent">
+  <h2>Java Projects</h2>
+  <h3>Patience (Solitaire)</h3>
+  <p>Object Oriented playable game of Solitaire</p>
+  <img src="Software Projects/Java/Patience.png"
+     style="max-width: 100%;"/> 
+  <h3>Backgammon</h3>
+  <p>Object Oriented playable game of Backgammon. Created as part of a group assignment, using github for version control and JUnit testing for trouble shooting.</p>
+  <img src="Software Projects/Java/Bg1.png"
+     style="max-width: 100%;"/> 
+  <img src="Software Projects/Java/Bg2.png"
+     style="max-width: 100%;"/> 
+</div>
 
-<div id="2" class="tabcontent"></div>
+<div id="2" class="tabcontent">
+  <h2>Python Projects</h2>
+  
+</div>
 
-<div id="3" class="tabcontent"></div>
+<div id="3" class="tabcontent">
+  <h2>MATLAB Projects</h2>
+  
+</div>
 
-<div id="4" class="tabcontent"></div>
+<div id="4" class="tabcontent">
+  <h2>C++ Projects</h2>
+  
+</div>
 
 <div id="5" class="tabcontent"></div>
-
+  <h2>C Projects</h2>
+  
 </html>
