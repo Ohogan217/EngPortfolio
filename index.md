@@ -3,14 +3,17 @@
 ---
 
 [3D Modelling Projects](/3dmproj.md)
+<p></p>
 <img src="images/3dmod cover.jpg?raw=true"/>
 
 ---
 [Software Projects](/swproj.md)
+<p></p>
 <img src="images/software.jpg?raw=true"/>
 
 ---
-[Thesis Poject](http://example.com/)
+[Thesis Poject](/Thesis%20Project/Oisin_Hogan_Thesis_Submission.pdf)
+<p></p>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
