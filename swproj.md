@@ -47,9 +47,9 @@ document.getElementsByClassName("tablinks")[1].className = "active";
 
 <div id="1" class="tabcontent">
   <h2>Java Projects</h2>
-  <h3><a href =  "https://github.com/Ohogan217/EngPortfolio/tree/master/Software Projects/Java/Patience">Patience (Solitaire)</a></h3>
+  <h3><a href =  "Software%20Projects/Java/Patience">Patience (Solitaire)</a></h3>
   <p>Object Oriented playable game of Solitaire</p>
-  <img src="https.Software Projects/Images/Patience.png"
+  <img src="Software Projects/Images/Patience.png"
      style="max-width: 100%;"/> 
   <h3>Backgammon</h3>
   <p>Object Oriented playable game of Backgammon. Created as part of a group assignment, using github for version control and JUnit testing for trouble shooting.</p>
