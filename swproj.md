@@ -49,13 +49,13 @@ document.getElementsByClassName("tablinks")[1].className = "active";
   <h2>Java Projects</h2>
   <h3><a href =  "Software Projects/Patience">Patience (Solitaire)</a></h3>
   <p>Object Oriented playable game of Solitaire</p>
-  <img src="Software Projects/Java/Images/Patience.png"
+  <img src="Software Projects/Images/Patience.png"
      style="max-width: 100%;"/> 
   <h3>Backgammon</h3>
   <p>Object Oriented playable game of Backgammon. Created as part of a group assignment, using github for version control and JUnit testing for trouble shooting.</p>
-  <img src="Software Projects/Java/Images/Bg1.png"
+  <img src="Software Projects/Images/Bg1.png"
      style="max-width: 100%;"/> 
-  <img src="Software Projects/Java/Images/Bg2.png"
+  <img src="Software Projects/Images/Bg2.png"
      style="max-width: 100%;"/> 
 </div>
 
@@ -76,5 +76,8 @@ document.getElementsByClassName("tablinks")[1].className = "active";
 
 <div id="5" class="tabcontent"></div>
   <h2>C Projects</h2>
-  
+  <h3><a href =  "Software Projects/C">Hangman</a></h3>
+  <p>Playable game of Hangman, that uses txt file input as word and gives 10 work or letter guesses</p>
+  <img src="Software Projects/Images/Hangman.png"
+     style="max-width: 100%;"/> 
 </html>
