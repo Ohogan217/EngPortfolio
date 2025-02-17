@@ -52,38 +52,38 @@ document.getElementsByClassName("tablinks")[1].className = "active";
   <p>Model stresses in the stent during expansion and after expansion for 2 different materials</p>
   <h3>Artery Simulation</h3>
   <img src="3d Modelling Projects/Popliteal Stent/UnstentedArtery.png"
-     style="max-width: 70%;"/> 
+     style="max-width: 100%;"/> 
   <img src="3d Modelling Projects/Popliteal Stent/StentedArtery.png" 
-     style="max-width: 70%;"/> 
+     style="max-width: 100%;"/> 
   <img src="3d Modelling Projects/Popliteal Stent/ArteryStress.png" 
-     style="max-width: 70%;"/> 
+     style="max-width: 100%;"/> 
  <h3>Stent Modelling</h3>
  <p>Stent was designed by creating a single cell that was duplicated 4 times to produce the desired shape. This was because the student version of Abaqus has a limit on the amount of Ngons for Finite Element Analysis.</p>
   <img src="3d Modelling Projects/Popliteal Stent/UnexpandedStent.png" 
-     style="max-width: 70%;"/> 
+     style="max-width: 100%;"/> 
   <img src="3d Modelling Projects/Popliteal Stent/StentUnitDesign.png" 
-     style="max-width: 70%;"/> 
+     style="max-width: 100%;"/> 
   <h3>Material Modelling</h3>
   <h4>Steel Stent</h4>
   <img src="3d Modelling Projects/Popliteal Stent/ExpansionStentSteel.png" 
-     style="max-width: 70%;"/> 
+     style="max-width: 100%;"/> 
   <img src="3d Modelling Projects/Popliteal Stent/ExpandedStentSteel.png" 
-     style="max-width: 70%;"/> 
+     style="max-width: 100%;"/> 
   <h4>Nitinol Stent</h4>
   <img src="3d Modelling Projects/Popliteal Stent/ExpansionStentNitinol.png" 
-     style="max-width: 70%;"/> 
+     style="max-width: 100%;"/> 
   <img src="3d Modelling Projects/Popliteal Stent/ExpandedStentNitinol.png" 
-     style="max-width: 70%;"/> 
+     style="max-width: 100%;"/> 
   <h4>Stent Stress Comparison</h4>
   <img src="3d Modelling Projects/Popliteal Stent/MatStressCompGraph.png" 
-     style="max-width: 70%;"/> 
+     style="max-width: 100%;"/> 
 </div>
 
 <div id="2" class="tabcontent">
   <h2>Electrodeposition System</h2>
   <p>Design an electrodeposition system for use on silicon chips</p>
  <img src="3d Modelling Projects/Electrodeposition System/FullSystem.png" 
-     style="max-width: 70%;"/>
+     style="max-width: 100%;"/>
  <p></p>
  
  
@@ -92,41 +92,41 @@ document.getElementsByClassName("tablinks")[1].className = "active";
   <h2>Renderings</h2>
   <h3>Rotating Cathode Holder</h3>
   <img src="3d Modelling Projects/Electrodeposition System/Cathode render.png"  
-     style="max-width: 70%;"/>
+     style="max-width: 100%;"/>
   <img src="3d Modelling Projects/Electrodeposition System/Cathode open.png" 
-     style="max-width: 70%;"/> 
+     style="max-width: 100%;"/> 
 
   <h3>Anode Basket</h3>
   <img src="3d Modelling Projects/Electrodeposition System/Anode Render.png" 
-     style="max-width: 70%;"/>
+     style="max-width: 100%;"/>
 </div>
 
 <button class="accordion" >Drawings</button>
 <div class="panel">
       <h2>Drawings</h2>
       <img src="3d Modelling Projects/Electrodeposition System/CathodeAssembly.png" 
-     style="max-width: 70%;"/>
+     style="max-width: 100%;"/>
      <img src="3d Modelling Projects/Electrodeposition System/TopDraw.png" 
-     style="max-width: 70%;"/>
+     style="max-width: 100%;"/>
      <img src="3d Modelling Projects/Electrodeposition System/ClaspDraw.png" 
-     style="max-width: 70%;"/>
+     style="max-width: 100%;"/>
      <img src="3d Modelling Projects/Electrodeposition System/PinDraw.png" 
-     style="max-width: 70%;"/>
+     style="max-width: 100%;"/>
      <img src="3d Modelling Projects/Electrodeposition System/RingDraw.png" 
-     style="max-width: 70%;"/>
+     style="max-width: 100%;"/>
      <img src="3d Modelling Projects/Electrodeposition System/FoamDraw.png" 
-     style="max-width: 70%;"/>
+     style="max-width: 100%;"/>
      <img src="3d Modelling Projects/Electrodeposition System/CaseDraw.png" 
-     style="max-width: 70%;"/>
+     style="max-width: 100%;"/>
      <img src="3d Modelling Projects/Electrodeposition System/ShaftDraw.png" 
-     style="max-width: 70%;"/>
+     style="max-width: 100%;"/>
  </div>
 </div>
 <div id="3" class="tabcontent">
   <h2>Guitar Strummer</h2>
   <p>Develop a four bar linkage system for a specific purpose. A guitar strummer was chosen.</p>
   <img src="3d Modelling Projects/Guitar Strummer/MS.gif" 
-     style="max-width: 70%;"/>
+     style="max-width: 100%;"/>
 
 </div>
 
