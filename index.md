@@ -16,9 +16,6 @@
 <p></p>
 <img src="images/Thesis.png?raw=true"/>
 
----
-[VFX Projects](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 ## Key Skills
