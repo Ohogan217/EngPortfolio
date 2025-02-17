@@ -39,9 +39,9 @@ document.getElementById("defaultOpen").click();
 document.getElementsByClassName("tablinks")[1].className = "active";
 </script>
 <div class="btn-group">
-  <button class="tablinks" onclick="openPage(event, '1')" id = "defaultOpen" >Java</button>
+  <button class="tablinks" onclick="openPage(event, '3')" id = "defaultOpen">MATLAB</button>
+  <button class="tablinks" onclick="openPage(event, '1')">Java</button>
   <button class="tablinks" onclick="openPage(event, '2')">Python</button>
-  <button class="tablinks" onclick="openPage(event, '3')">MATLAB</button>
   <button class="tablinks" onclick="openPage(event, '5')">C</button>
 </div>
 
