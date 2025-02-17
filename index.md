@@ -18,9 +18,16 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-
-
-
+## Key Skills
+---
+<h3>Programming</h3>
+Python, Java, Python, C++, R, C, HTML, MATLAB
+<h3>3D Modelling</h3>
+AutoCAD Fusion 360, AutoCAD Inventor, SolidWorks, Blender
+<h3>Simulations</h3>
+AutoCAD Fusion 360, OpenSim, Blender, MATLAB
+<h3>Finite Element Analysis</h3>
+Abaqus, FEBio, 
 
 
 ---
