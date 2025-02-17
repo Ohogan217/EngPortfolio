@@ -17,7 +17,7 @@
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[VFX Projects](http://example.com/)
+[VFX Projects](/pdf/sample_presentation.pdf)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
