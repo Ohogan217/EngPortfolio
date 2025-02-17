@@ -66,11 +66,11 @@ document.getElementsByClassName("tablinks")[1].className = "active";
 
 <div id="3" class="tabcontent">
   <h2>MATLAB Projects</h2>
-  <h3><a href =  "https://github.com/Ohogan217/Ohogan217.github.io/tree/master/Software%20Projects/MATLAB/Thesis Software">Decision Making Trial Software (Solitaire)</a></h3>
+  <h3><a href =  "https://github.com/Ohogan217/Ohogan217.github.io/tree/master/Software%20Projects/MATLAB/Thesis Software">Decision Making Trial Software</a></h3>
   <p>Object oriented decision making trial package that could utilise a discrete user input using two force sensors. This uses MATLAB with the PsychToolbox package and a National Instruments DAQ to read in the real time force values</p>
   <img src="Software Projects/Images/DMTrial.png"
      style="max-width: 100%;"/> 
-  <h3><a href =  "https://github.com/Ohogan217/Ohogan217.github.io/tree/master/Software%20Projects/Matlab/Modelling and Simulation">Bridge Stress Simulation (Solitaire)</a></h3>
+  <h3><a href =  "https://github.com/Ohogan217/Ohogan217.github.io/tree/master/Software%20Projects/Matlab/Modelling and Simulation">Bridge Stress Simulation</a></h3>
   <p>3D modelled truck driving over a truss bridge, with colours of the beams that demonstrate the relative compression or tension within it. This simulation was carried out in MATLAB.</p>
   
 </div>
