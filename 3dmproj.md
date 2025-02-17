@@ -89,7 +89,7 @@ document.getElementsByClassName("tablinks")[1].className = "active";
      style="max-width: 100%;"/>
  <p></p>
  
- 
+ <p>Click to expand for images</p>
 <button class="accordion" >Renderings</button>
 <div class="panel">
   <h2>Renderings</h2>
