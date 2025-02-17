@@ -49,13 +49,13 @@ document.getElementsByClassName("tablinks")[1].className = "active";
   <h2>Java Projects</h2>
   [Patience (Solitaire)]("Software Projects/Java/Patience")
   <p>Object Oriented playable game of Solitaire</p>
-  <img src="Software Projects/Java/pics/Patience.png"
+  <img src="Software Projects/Java/Images/Patience.png"
      style="max-width: 100%;"/> 
   <h3>Backgammon</h3>
   <p>Object Oriented playable game of Backgammon. Created as part of a group assignment, using github for version control and JUnit testing for trouble shooting.</p>
-  <img src="Software Projects/Java/pics/Bg1.png"
+  <img src="Software Projects/Java/Images/Bg1.png"
      style="max-width: 100%;"/> 
-  <img src="Software Projects/Java/pics/Bg2.png"
+  <img src="Software Projects/Java/Images/Bg2.png"
      style="max-width: 100%;"/> 
 </div>
 
