@@ -47,11 +47,11 @@ document.getElementsByClassName("tablinks")[1].className = "active";
 
 <div id="1" class="tabcontent">
   <h2>Java Projects</h2>
-  <h3><a href =  "Software%20Projects/Java/Patience">Patience (Solitaire)</a></h3>
+  <h3><a href =  "https://github.com/Ohogan217/Ohogan217.github.io/Software%20Projects/Java/Patience">Patience (Solitaire)</a></h3>
   <p>Object Oriented playable game of Solitaire</p>
   <img src="Software Projects/Images/Patience.png"
      style="max-width: 100%;"/> 
-  <h3>Backgammon</h3>
+  <h3><a href = "https://github.com/Ohogan217/Group_34">Backgammon</a></h3>
   <p>Object Oriented playable game of Backgammon. Created as part of a group assignment, using github for version control and JUnit testing for trouble shooting.</p>
   <img src="Software Projects/Images/Bg1.png"
      style="max-width: 100%;"/> 
@@ -66,7 +66,7 @@ document.getElementsByClassName("tablinks")[1].className = "active";
 
 <div id="3" class="tabcontent">
   <h2>MATLAB Projects</h2>
-  <h3><a href =  "/Software%20Projects/MATLAB/Thesis Software">Decision Making Trial Software (Solitaire)</a></h3>
+  <h3><a href =  "https://github.com/Ohogan217/Ohogan217.github.io/Software%20Projects/MATLAB/Thesis Software">Decision Making Trial Software (Solitaire)</a></h3>
   <p>Object oriented decision making trial package that could utilise a discrete user input using two force sensors. This uses MATLAB with the PsychToolbox package and a National Instruments DAQ to read in the real time force values</p>
   <img src="Software Projects/Images/DMTrial.png"
      style="max-width: 100%;"/> 
@@ -82,7 +82,7 @@ document.getElementsByClassName("tablinks")[1].className = "active";
 
 <div id="5" class="tabcontent">
   <h2>C Projects</h2>
-  <h3><a href =  "/Software%20Projects/C">Hangman</a></h3>
+  <h3><a href =  "https://github.com/Ohogan217/Ohogan217.github.io/Software%20Projects/C">Hangman</a></h3>
   <p>Playable game of Hangman, that uses txt file input as word and gives 10 work or letter guesses</p>
   <img src="Software Projects/Images/Hangman.png"
      style="max-width: 100%;"/> 
