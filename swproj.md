@@ -78,7 +78,7 @@ document.getElementsByClassName("tablinks")[1].className = "active";
   <img src="Software Projects/Images/DMTrial.png"
      style="max-width: 100%;"/> 
   <p></p>
-  <h3>Bridge Stress Simulation</a></h3>
+  <h3>Bridge Stress Simulation</h3>
   <a href =  "https://github.com/Ohogan217/Ohogan217.github.io/tree/master/Software%20Projects/Matlab/Modelling and Simulation">Link to Project Files</a>
   <p>3D modelled truck driving over a truss bridge, with colours of the beams that demonstrate the relative compression or tension within it. This simulation was carried out in MATLAB.</p>
   <img src="Software Projects/Images/MnS.gif"
