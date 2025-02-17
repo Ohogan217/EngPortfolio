@@ -77,10 +77,11 @@ document.getElementsByClassName("tablinks")[1].className = "active";
   
 </div>
 
-<div id="5" class="tabcontent"></div>
+<div id="5" class="tabcontent">
   <h2>C Projects</h2>
   <h3><a href =  "https://github.com/Ohogan217/EngPortfolio/tree/master/Software Projects/C">Hangman</a></h3>
   <p>Playable game of Hangman, that uses txt file input as word and gives 10 work or letter guesses</p>
   <img src="Software Projects/Images/Hangman.png"
      style="max-width: 100%;"/> 
+</div>
 </html>
