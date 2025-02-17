@@ -43,7 +43,7 @@ document.getElementsByClassName("tablinks")[1].className = "active";
   <button class="tablinks" onclick="openPage(event, '2')">Electrodeposition<br>System</button>
   <button class="tablinks" onclick="openPage(event, '3')">Guitar<br>Strummer</button>
   <button class="tablinks" onclick="openPage(event, '4')">Mars Rover<br>Wheel</button>
-  <button style="max-width:100%"></button>
+  
    
 </div>
 
