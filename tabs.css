@@ -139,9 +139,7 @@
 .active, .dot:hover {
   background-color: #717171;
 }
-.there {
-  background-color: #bbb;
-}
+
 
 /* Fading animation */
 .fade {
