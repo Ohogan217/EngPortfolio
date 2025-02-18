@@ -1,11 +1,9 @@
 <html>
-<head>
-   <link rel="stylesheet" href="tabs.css">
-<a href="https://ohogan217.github.io/">Return to Home</a> 
+
+<script>
+   <a href="https://ohogan217.github.io/">Return to Home</a> 
    
 <h1>3D Modelling Projects</h1>
-</head>
-<script>
 function openPage(evt, cityName) {
   // Declare all variables
   var i, tabcontent, tablinks;
