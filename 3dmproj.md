@@ -165,9 +165,9 @@ function showSlides(n) {
   <h2>Toy Boat Assembly</h2>
    <br>
   <p>Toy boat assembly, all parts were modelled based on working drawings that were provided</p>
-   <img src="3d Modelling Projects/Toy Boat Assembly/Improved Boat Assembly.png" 
+   <img src="3d Modelling Projects/Toy Boat Assembly/Improved Boat Assembly Drawing.png" 
      style="max-width: 100%;"/>
-     <img src="3d Modelling Projects/Toy Boat Assembly/Moving Toy Boat.gif" 
+     <img src="3d Modelling Projects/Toy Boat Assembly/Moving Boat Toy.gif" 
      style="max-width: 100%;"/>
 </div> 
 
