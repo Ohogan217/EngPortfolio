@@ -66,7 +66,10 @@ document.getElementsByClassName("tablinks")[1].className = "active";
 
 <div id="2" class="tabcontent">
   <h2>Python Projects</h2>
-  
+  <h3>Myelinated Axon Simulation</h3>
+  <p>Simulated the effect of various stimuli on myelinated axon firing rates, conductance velocity and membrane potential. Simulated using NEURON library and Jupyter Notebooks</p>
+  <img src="Software Projects/Images/Axon.png"
+     style="max-width: 100%;"/> 
 </div>
 
 <div id="3" class="tabcontent">
