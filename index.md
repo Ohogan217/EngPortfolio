@@ -27,7 +27,7 @@ AutoCAD Fusion 360, AutoCAD Inventor, SolidWorks, Blender
 <h3>Simulations</h3>
 AutoCAD Fusion 360, OpenSim, Blender, MATLAB
 <h3>Finite Element Analysis</h3>
-Abaqus, FEBio, 
+Abaqus, FEBio
 
 
 ---
