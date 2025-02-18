@@ -1,9 +1,6 @@
 <html>
 
 <script>
-   <a href="https://ohogan217.github.io/">Return to Home</a> 
-   
-<h1>3D Modelling Projects</h1>
 function openPage(evt, cityName) {
   // Declare all variables
   var i, tabcontent, tablinks;
@@ -58,6 +55,8 @@ function showSlides(n) {
 } 
 
 </script>
+<a href="https://ohogan217.github.io/">Return to Home</a> 
+<h1>3D Modelling Projects</h1>
 
 <div class="btn-group">
   <button class="tablinks" onclick="openPage(event, '1')" id = "defaultOpen" >Popliteal<br>Stent</button>
