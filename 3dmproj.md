@@ -36,9 +36,9 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 document.getElementById("defaultOpen").click(); 
-let slideIndex = 1;
 showSlides(slideIndex);
 }
+let slideIndex = 1;
 document.getElementsByClassName("tablinks")[1].className = "active";
 
 
