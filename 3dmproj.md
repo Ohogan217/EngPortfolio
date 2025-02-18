@@ -65,6 +65,7 @@ function showSlides(n) {
   <button class="tablinks" onclick="openPage(event, '1')" id = "defaultOpen" >Popliteal<br>Stent</button>
   <button class="tablinks" onclick="openPage(event, '2')">Electrodeposition<br>System</button>
   <button class="tablinks" onclick="openPage(event, '3')">Guitar<br>Strummer</button>
+  <button class="tablinks" onclick="openPage(event, '4')">Toy Boat<br>Assembly</button>
   <button class="tablinks" onclick="openPage(event, '5')">Miscellaneous<br>Renders</button>
   
    
@@ -161,8 +162,13 @@ function showSlides(n) {
 </div>
 
 <div id="4" class="tabcontent">
-  <h2>Mars Rover Wheel</h2>
-  <p>Who we are and what we do.</p>
+  <h2>Toy Boat Assembly</h2>
+   <br>
+  <p>Toy boat assembly, all parts were modelled based on working drawings that were provided</p>
+   <img src="3d Modelling Projects/Toy Boat Assembly/Improved Boat Assembly.png" 
+     style="max-width: 100%;"/>
+     <img src="3d Modelling Projects/Toy Boat Assembly/Moving Toy Boat.gif" 
+     style="max-width: 100%;"/>
 </div> 
 
 <div id="5" class="tabcontent">
