@@ -7,7 +7,7 @@
 <img src="images/3dmod cover.jpg?raw=true"/>
 
 ---
-[Software Projects](/swproj.md)
+[Programming Projects](/swproj.md)
 <p></p>
 <img src="images/software.jpg?raw=true"/>
 
