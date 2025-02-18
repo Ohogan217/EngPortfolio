@@ -1,10 +1,6 @@
 <html>
-<head>
-  <a href="https://ohogan217.github.io/">Return to Home</a> 
-  <link rel="stylesheet" href="tabs.css">
-  <h1>Sofware Projects</h1>
-</head>
-<script>
+
+<script>  
 function openPage(evt, cityName) {
   // Declare all variables
   var i, tabcontent, tablinks;
@@ -38,6 +34,9 @@ document.getElementById("defaultOpen").click();
 }
 document.getElementsByClassName("tablinks")[1].className = "active";
 </script>
+<a href="https://ohogan217.github.io/">Return to Home</a> 
+<h1>Sofware Projects</h1>
+
 <div class="btn-group">
   <button class="tablinks" onclick="openPage(event, '3')" id = "defaultOpen">MATLAB</button>
   <button class="tablinks" onclick="openPage(event, '1')">Java</button>
