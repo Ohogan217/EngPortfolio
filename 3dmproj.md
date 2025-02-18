@@ -36,36 +36,27 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 document.getElementById("defaultOpen").click(); 
-
-document.getElementsByClassName("tablinks")[1].className = "active";
-
-let slideIndex = 1;
 showSlides(slideIndex);
 }
+let slideIndex = 1;
+document.getElementsByClassName("tablinks")[1].className = "active";
+
+
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
 function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className = " active";
+   let i;
+   let slides = document.getElementsByClassName("mySlides");
+   if (n > slides.length) {slideIndex = 1}
+   if (n < 1) {slideIndex = slides.length}
+   for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+   }
+   
+   slides[slideIndex-1].style.display = "block";
 } 
 
 </script>
@@ -74,7 +65,6 @@ function showSlides(n) {
   <button class="tablinks" onclick="openPage(event, '1')" id = "defaultOpen" >Popliteal<br>Stent</button>
   <button class="tablinks" onclick="openPage(event, '2')">Electrodeposition<br>System</button>
   <button class="tablinks" onclick="openPage(event, '3')">Guitar<br>Strummer</button>
-  <button class="tablinks" onclick="openPage(event, '4')">Mars Rover<br>Wheel</button>
   <button class="tablinks" onclick="openPage(event, '5')">Misecellaneous<br>Renders</button>
   
    
@@ -179,48 +169,36 @@ function showSlides(n) {
   <h2>Miscellaneous Renders</h2>
   <p></p>
    <div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides">
-    <div class="numbertext">1 / 5</div>
-    <img src="3d Modelling Projects/Miscellaneous Renders/Bridge Scene.png" style="width:100%">
-    <div class="text">Under Bridge Scene</div>
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">2 / 5</div>
-        <img src="3d Modelling Projects/Miscellaneous Renders/Sand.png" style="width:100%">
-    <div class="text">Desert Scene</div>
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">3 / 5</div>
-        <img src="3d Modelling Projects/Miscellaneous Renders/Hammer driver.png" style="width:100%">
-    <div class="text">Hammer and Screwdriver Render</div>
-  </div>
-
-<div class="mySlides">
-    <div class="numbertext">4 / 5</div>
-        <img src="3d Modelling Projects/Miscellaneous Renders/moon island.png" style="width:100%">
-    <div class="text">Moonlit Island Scene</div>
-  </div>
-  <div class="mySlides">
-    <div class="numbertext">5 / 5</div>
-        <img src="3d Modelling Projects/Miscellaneous Renders/table top.png" style="width:100%">
-    <div class="text">Tavern Table Top Render</div>
-  </div>
+      <div class="mySlides">
+       <div class="numbertext">1 / 5</div>
+       <img src="3d Modelling Projects/Miscellaneous Renders/Bridge Scene.png" style="width:100%">
+       <div class="text">Under Bridge Scene</div>
+      </div>
+      <div class="mySlides">
+       <div class="numbertext">2 / 5</div>
+           <img src="3d Modelling Projects/Miscellaneous Renders/Sand.png" style="width:100%">
+       <div class="text">Desert Scene</div>
+      </div>
+      <div class="mySlides">
+       <div class="numbertext">3 / 5</div>
+           <img src="3d Modelling Projects/Miscellaneous Renders/Hammer driver.png" style="width:100%">
+       <div class="text">Hammer and Screwdriver Render</div>
+      </div>
+      <div class="mySlides">
+       <div class="numbertext">4 / 5</div>
+           <img src="3d Modelling Projects/Miscellaneous Renders/moon island.png" style="width:100%">
+       <div class="text">Moonlit Island Scene</div>
+      </div>
+      <div class="mySlides">
+       <div class="numbertext">5 / 5</div>
+           <img src="3d Modelling Projects/Miscellaneous Renders/table top.png" style="width:100%">
+       <div class="text">Tavern Table Top Render</div>
+      </div>
   <!-- Next and previous buttons -->
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
 <!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
-  <span class="dot" onclick="currentSlide(5)"></span>
-</div>
 
 </div> 
 

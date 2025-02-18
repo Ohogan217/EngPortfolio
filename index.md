@@ -7,7 +7,7 @@
 <img src="images/3dmod cover.jpg?raw=true"/>
 
 ---
-[Software Projects](/swproj.md)
+[Programming Projects](/swproj.md)
 <p></p>
 <img src="images/software.jpg?raw=true"/>
 
@@ -27,7 +27,7 @@ AutoCAD Fusion 360, AutoCAD Inventor, SolidWorks, Blender
 <h3>Simulations</h3>
 AutoCAD Fusion 360, OpenSim, Blender, MATLAB
 <h3>Finite Element Analysis</h3>
-Abaqus, FEBio, 
+Abaqus, FEBio
 
 
 ---
