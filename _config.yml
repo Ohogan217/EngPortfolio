@@ -1,9 +1,11 @@
+
 title: <center>Oisín Ó hÓgáin</center> # your name (or website title) here
 #logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Biomedical engineering graduate with skills in 3D Modelling, Software Engineering, Object Oriented Programming, Mechanical Analysis
   <br>
   <a href="https://www.linkedin.com/in/oisin-ohogain/">View My LinkedIn Profile</a> 
+  <br>
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
