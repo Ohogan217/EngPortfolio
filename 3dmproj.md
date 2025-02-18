@@ -39,7 +39,7 @@ document.getElementById("defaultOpen").click();
 
 document.getElementsByClassName("tablinks")[1].className = "active";
 
-let slideIndex = 2;
+let slideIndex = 1;
 showSlides(slideIndex);
 }
 // Next/previous controls
