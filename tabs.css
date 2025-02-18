@@ -11,8 +11,8 @@
   height:200%
 }
 .btn-group button {
-  background-color: #04AA6D; /* Green background */
-  border: 1px solid green; /* Green border */
+  background-color: #2F9AE6; /* Green background */
+  border: 1px solid #1C5C8A; /* Green border */
   color: white; /* White text */
   padding: 5px 10px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
@@ -35,7 +35,7 @@
 
 /* Add a background color on hover */
 .btn-group button:hover {
-  background-color: #3e8e41;
+  background-color: #267CB9;
 }
  /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
