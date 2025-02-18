@@ -77,6 +77,10 @@ document.getElementsByClassName("tablinks")[1].className = "active";
   <p>Object oriented decision making trial package that could utilise a discrete user input using two force sensors. This uses MATLAB with the PsychToolbox package and a National Instruments DAQ to read in the real time force values</p>
   <img src="Software Projects/Images/DMTrial.png"
      style="max-width: 100%;"/> 
+     <p></p>
+  <h3>Machine Learning Parkinson's Diagnosis</h3>
+  <a href =  "https://github.com/Ohogan217/Ohogan217.github.io/tree/master/Software%20Projects/Matlab/Machine%20Learning">Link to Project Files</a>
+  <p>Comparison of machine learning algorithms to assess suitability to diagnose parkinson's based on pressure sensor walking data</p>
   <p></p>
   <h3>Bridge Stress Simulation</h3>
   <a href =  "https://github.com/Ohogan217/Ohogan217.github.io/tree/master/Software%20Projects/Matlab/Modelling and Simulation">Link to Project Files</a>
