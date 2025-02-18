@@ -41,7 +41,7 @@ document.getElementsByClassName("tablinks")[1].className = "active";
 
 let slideIndex = 1;
 showSlides(slideIndex);
-
+}
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -67,7 +67,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className = " active";
 } 
-}
+
 </script>
 
 <div class="btn-group">
